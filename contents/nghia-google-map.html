@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map</title>
+
+    <style>
+      /* Reset styles cho các thẻ a */
+      a {
+        text-decoration: none; /* Xóa đường link mặc định */
+      }
+
+      /* Style cho container */
+      .button-container {
+        display: flex; /* Sử dụng flexbox để căn chỉnh các nút */
+        flex-direction: column; /* Sắp xếp nút theo chiều dọc */
+      }
+
+      /* Style cho button tùy chỉnh */
+      .custom-button {
+        display: block; /* Hiển thị là block để chiếm toàn bộ chiều ngang của container */
+        background-color: #4caf50; /* Màu nền */
+        color: white; /* Màu chữ */
+        padding: 10px 20px; /* Kích thước padding */
+        border-radius: 5px; /* Bo tròn góc */
+        margin-bottom: 10px; /* Khoảng cách giữa các button */
+      }
+
+      /* Hover effect */
+      .custom-button:hover {
+        background-color: #45a049; /* Màu nền hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-container">
+      <a
+        href="https://maps.app.goo.gl/d7yctziDKpm1ZPom9"
+        target="_blank"
+        class="custom-button"
+      >
+        Chung cư BMM
+      </a>
+
+      <a
+        href="https://maps.app.goo.gl/e5cHry4zzoeL957k8"
+        target="_blank"
+        class="custom-button"
+      >
+        HUST
+      </a>
+
+      <a
+        href="https://maps.app.goo.gl/3cY2gxpEsetrE3Ty6"
+        target="_blank"
+        class="custom-button"
+      >
+        SVĐ BK
+      </a>
+    </div>
+  </body>
+</html>
